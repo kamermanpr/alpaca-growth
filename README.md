@@ -1,5 +1,7 @@
 # Alpaca growth
 
+[![DOI](https://zenodo.org/badge/383789985.svg)](https://zenodo.org/badge/latestdoi/383789985)
+
 Investigation of body temperature and metabolic determinants of growth in alpacas.
 
 ## Bibliometric information
