@@ -18,10 +18,10 @@
 
 #-- Get the verse rocker image --#
 
-FROM rocker/verse:4.0.4
+FROM rocker/tidyverse:4.0.4
 
 MAINTAINER Peter Kamerman <peter.kamerman@gmail.com>
 
 #-- Install extra packages --#
 
-RUN Rscript -e "install.packages(c('lubridate', 'performance', 'qqplotr', 'skimr', 'knitr', 'boot', 'lme4', 'readxl', 'patchwork', 'GGally'), dependencies = TRUE)"
+RUN Rscript -e "install.packages(c('performance', 'qqplotr', 'sjPlot', 'skimr', 'nlme', 'lme4', 'patchwork', 'ggrepel'), dependencies = TRUE)"
