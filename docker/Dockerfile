@@ -1,15 +1,15 @@
 #-- Build command --#
 ## cd to where the docker file is located.
-# docker build -t kamermanpr/alpaca-growth:<version> .
+# docker build -t kamermanpr/alpaca-growth:v1.1 .
 
 #-- Push build to DockerHub --#
 # docker push
 
 #-- The build image can be downloaded from Docker Hub --#
-# docker pull kamermanpr/alpaca-growth:<version>
+# docker pull kamermanpr/alpaca-growth:v1.1
 
 #-- Run command --#
-# docker run --name alpaca -d -p 8787:8787 -e USER=user -e PASSWORD=password kamermanpr/alpaca-growth:<version>
+# docker run --name alpaca -d -p 8787:8787 -e USER=user -e PASSWORD=password kamermanpr/alpaca-growth:v1.1
 
 #-- Login to RStudio --#
 # In your browser, navigate to: localhost:8787
