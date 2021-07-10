@@ -8,6 +8,7 @@ library(dplyr)
 library(tidyr)
 library(lubridate)
 library(readxl)
+library(readr)
 
 #-- Create folders, if required --#
 if(!dir.exists('data-cleaned')){
