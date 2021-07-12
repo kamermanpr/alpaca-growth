@@ -43,7 +43,7 @@ Enter: `docker run --name alpaca -d -p 8787:8787 -e USER=user -e PASSWORD=passwo
 
 - In the _Files_ tab, double-click the **alpaca-data.Rproj** file to ensure all the working directories are in order before running any of the scripts.
 
-**Note:** The first time you _knit_ one of the _Rmd_ files, the generation of the PDF output will take some time as the system will install all the required _LaTeX_ packages for generating PDF documents. 
+- Open the individual R scripts and run them.
 
 #### Shutting down
 
